@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-fluid {
+  width: 100vw;
+}
+
+.modal-overlay, .modal-div {
+  left: 0;
+}
+
+.modal-overlay {
+  z-index: 99;
+}
+
+.modal-div {
+  z-index: 100;
+}
+
+.modal-content {
+  width: auto!important;
+}
+
+.edit-task-modal-overlay, .edit-task-modal-body {
+  left: 0;
+}
+
+.edit-task-modal-overlay {
+  z-index: 99;
+}
+
+.edit-task-modal-body {
+  z-index: 100;
+}
